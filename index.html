@@ -7,25 +7,45 @@
     </head>
 
     <body>
-        <div class="top">
+        <div class="header">
             
             <h1>Onnikka</h1>
-            <h2>Parempaa painonhallintaa</h2>
+           
+                <h2>Parempaa painonhallintaa</h2>
+                <p class="right">Suoha Kirjautunut sisään</p>
+            
         </div>
+        
+        <button>Joku nappi</button>
+        <button>Paina tästä</button>
+        <button id="dark-mode">Tumma tila</button>
+       
+       <p>Käyttäjmäärät kuukausittain</p>
         <table id="users-table">
             <thead>
-                <th>Date</th>
-                <th>Users</th>
+                <th>Päiväys</th>
+                <th>Käyttäjiä</th>
             </thead>
             <tbody id="users-table-body">
                 
             
             </tbody>
         </table>
+        <p>Painon vaihtelu kuukausittain</p>
+        <table id="weight-table">
+            <thead>
+                <th>Kuukausi</th>
+                <th>keskimääräinen muutos</th>
+                <th>muutoksen mediaani</th>
+                <th>lukumäärä</th>
+                <th>Keskihajonta</th>
+            </thead>
+            <tbody id="weight-table-body">
+                
+            
+            </tbody>
+        </table>
         
-        <button>Joku nappi</button>
-        <button>Paina tästä</button>
-        <button>Tumma tila</button>
         
         <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
         <script src="script.js"></script>
