@@ -19,6 +19,9 @@ h2 {
 .right {
     text-align: right;
 }
+p {
+    margin-left: 10px;
+}
 table {
     margin: 20px 10px;
     border-collapse: collapse;
