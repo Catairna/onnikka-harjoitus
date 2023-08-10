@@ -1,0 +1,19 @@
+h1 {
+    color: #f15b11;
+}
+.top {
+    background-image: linear-gradient(to right, #ffb18a, #f76d28);
+    border: solid 2px #f15b11;
+}
+table {
+    border-collapse: collapse;
+    border: solid #f15b11;
+}
+th, td {
+    border: solid 1px #f76d28;
+}
+button {
+    background-color: #f15b11;
+    color: #ffffff;
+    border-radius: 20px;
+}
